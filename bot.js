@@ -8,6 +8,17 @@ client.on('ready', () => {
   client.user.setStatus('dnd');
   });
 
+client.on('ready', () => {
+  console.log(`Logged in as  * [ " BC " ] servers! [ " ${bot.guilds.size} " ]`);
+  client.user.setStatus('dnd');
+  });
+
+client.on('ready', () => {
+  console.log(`Logged in as  * [ " BC " ] servers! [ " ${token.guilds.size} " ]`);
+  client.user.setStatus('dnd');
+  });
+
+
 client.on('guildMemberRemove', member => {
  console.log("he's ready now");
      member.createDM().then(function (channel1) {
