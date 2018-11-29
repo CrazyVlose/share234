@@ -1,7 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const bot = new Discord.Client();
-const token = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as  * [ " BC " ] servers! [ " ${client.guilds.size} " ]`);
@@ -61,5 +59,3 @@ client.on('guildMemberAdd', member => {
 
 // Log our bot in
 client.login(process.env.BOT_TOKEN);
-token.login(process.env.OP);
-bot.login(process.env.SH);
