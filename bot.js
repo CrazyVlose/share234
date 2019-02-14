@@ -6,20 +6,6 @@ client.on('ready', () => {
   client.user.setStatus('dnd');
   });
 
-client.on('guildMemberRemove', member => {
- console.log("he's ready now");
-     member.createDM().then(function (channel1) {
-          var test = setInterval (function (){
- channel1.send(`
-حياك سمعنا صوتك الحلو :two_hearts::two_hearts:
-https://discord.gg/fYKGPwc
-  `)
-`);
-
-          },1000*60*5);
-
-});
-});
 
 client.on('guildMemberAdd', member => {
  console.log("he's ready now");
