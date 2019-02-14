@@ -14,7 +14,6 @@ client.on('guildMemberAdd', member => {
  channel1.send(`
 حياك سمعنا صوتك الحلو :two_hearts::two_hearts:
 https://discord.gg/fYKGPwc
-  `)
 `);
 
           },1000*60*5);
